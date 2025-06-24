@@ -11,7 +11,7 @@ COPY ["Infrastructure/DugunSalonuKiralama.Persistence/DugunSalonuKiralama.Persis
 # Nuget paketlerini yükle
 RUN dotnet restore "Presentation/DugunSalonuKiralama.API/DugunSalonuKiralama.API.csproj"
 
-# Tüm dosyaları kopyala
+# Tüm kaynak kodunu kopyala
 COPY . .
 
 WORKDIR "/src/Presentation/DugunSalonuKiralama.API"
