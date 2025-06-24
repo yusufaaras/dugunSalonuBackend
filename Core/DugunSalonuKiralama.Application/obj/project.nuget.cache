@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ERdYna6Io6YN3d+kiX8w0sXy3QYnTRDzvP+w37J04sbOtHEWXH7rNO68cjfot1ldKtlizZXXe2QQfHBj1mErog==",
+  "dgSpecHash": "lnHH3PxyuiYLayxK7EjhcnwyEz16xhRbowqYTZZUEb0Swag1ap1sC+8U/M5NvokdOGmdJsLO6+jxE/jGLZOGqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\MakineOgrenmeliDugunSalonuKiralama\\DugunSalonuKiralama\\Core\\DugunSalonuKiralama.Application\\DugunSalonuKiralama.Application.csproj",
+  "projectFilePath": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\dugunSalonuBackend\\Core\\DugunSalonuKiralama.Application\\DugunSalonuKiralama.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

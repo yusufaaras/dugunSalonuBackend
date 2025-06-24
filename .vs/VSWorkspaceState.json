@@ -14,6 +14,6 @@
     "\\Presentation",
     "\\Presentation\\DugunSalonuKiralama.API"
   ],
-  "SelectedNode": "\\Infrastructure\\DugunSalonuKiralama.Persistence\\Context\\WeddingHallContext.cs",
+  "SelectedNode": "\\Presentation\\DugunSalonuKiralama.API\\Dockerfile",
   "PreviewInSolutionExplorer": false
 }
