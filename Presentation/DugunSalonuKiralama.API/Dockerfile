@@ -1,5 +1,4 @@
-﻿# Build aşaması
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+﻿FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 COPY ["Presentation/DugunSalonuKiralama.API/DugunSalonuKiralama.API.csproj", "Presentation/DugunSalonuKiralama.API/"]
@@ -14,11 +13,9 @@ COPY . .
 WORKDIR "/src/Presentation/DugunSalonuKiralama.API"
 RUN dotnet publish "DugunSalonuKiralama.API.csproj" -c Release -o /app/publish
 
-# Runtime aşaması
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
 ENV ASPNETCORE_URLS=http://+:80
-
 ENTRYPOINT ["dotnet", "DugunSalonuKiralama.API.dll"]
